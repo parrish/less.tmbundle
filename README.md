@@ -2,17 +2,11 @@
 
 Syntax highlighting for `.less` files. To learn more about [LESS][], see <http://lesscss.org/docs.html>.
 
-This bundle was forked from `appden/less.tmbundle` but has since been rewritten from scratch (the language syntax).
+This bundle was forked from `appden/less.tmbundle`
 
-[`sample.less`](http://github.com/rsms/less.tmbundle/blob/master/sample.less):
+## Compiling to CSS (⌘S)
 
-<img src="http://github.com/rsms/less.tmbundle/raw/master/sample.png" width="600" height="465" />
-
-<small>Rendered in the ["Hunch Dark dimmed" theme](http://github.com/rsms/workenv/blob/master/textmate/Hunch-Dark-dimmed.tmTheme)</small>
-
-## Compiling to CSS (⌘B)
-
-Runs `lessc` on the current file, saving to the same file name with a .css extension (e.g. style.less => style.css). When there is `lessc: somefile.less` somewhere in the current file, that file is compiled instead.
+Runs `lessc` on the current file, saving to the same file name with a .css extension (e.g. style.less => style.css).
 
 Compiling requires some version of `lessc` to be in your `PATH`.
 
