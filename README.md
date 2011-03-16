@@ -4,6 +4,13 @@ Syntax highlighting for `.less` files. To learn more about [LESS][], see <http:/
 
 This bundle was forked from `appden/less.tmbundle`
 
+## Installation
+
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    git clone git://github.com/parrish/less.tmbundle.git
+    osascript -e 'tell app "TextMate" to reload bundles'
+
 ## Compiling to CSS (⌘S)
 
 Runs `lessc` on the current file, saving to the same file name with a .css extension (e.g. style.less => style.css).
