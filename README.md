@@ -6,6 +6,13 @@ This bundle was forked from `appden/less.tmbundle`
 
 ## Installation
 
+1. [Install node.js](https://github.com/joyent/node/wiki/Installation)
+2. Install [npm](https://github.com/isaacs/npm) with `curl http://npmjs.org/install.sh | sh`
+3. Install [LESS](http://lesscss.org/) with `sudo npm install less`
+4. Install the bundle
+
+### 
+
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/parrish/less.tmbundle.git
